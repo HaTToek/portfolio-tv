@@ -1,0 +1,88 @@
+.AboutMe{
+    animation-name: show;
+    animation-duration:1.3s;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.about{
+    font-size: x-large;
+    height:60%;
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    border:1px solid #ffffff;
+}
+.about_left{
+    height:100%;
+    width:40%;
+}
+.empty{
+    border:1px solid #ffffff;
+    height:40%;
+    width:100%;
+}
+.think{
+    margin:2rem;
+    color: #FADA5E;
+}
+.Information{
+    border:1px solid #ffffff;
+    height:60%;
+    width:100%;
+}
+.information{
+    margin:2rem;
+    color: #FADA5E;
+}
+.Web{
+    height:100%;
+    width:60%;
+}
+.web{
+    margin:2rem;
+    color: #FADA5E;
+}
+@media ( max-width: 767px ){
+    .about{
+        font-size: large;
+        height:80%;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        margin-top: 2.5rem;
+        border:1px solid #ffffff;
+    }       
+    .about_left{
+        height:30%;
+        width:100%;
+    }
+    .empty{
+        border:1px solid #ffffff;
+        height:40%;
+        width:100%;
+    }
+    .think{
+        margin:2rem;
+        color: #FADA5E;
+    }
+    .Information{
+        border:1px solid #ffffff;
+        height:60%;
+        width:100%;
+    }
+    .information{
+        margin:2rem;
+        color: #FADA5E;
+    }
+    .Web{
+        border:1px solid #ffffff;
+        height:70%;
+        width:100%;
+    }
+    .web{
+        margin:2rem;
+        color: #FADA5E;
+    }
+}
