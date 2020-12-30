@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tv/static/css/main.2a85d970.chunk.css",
+    "main.js": "/tv/static/js/main.adb0c6fe.chunk.js",
+    "main.js.map": "/tv/static/js/main.adb0c6fe.chunk.js.map",
+    "runtime-main.js": "/tv/static/js/runtime-main.734582cf.js",
+    "runtime-main.js.map": "/tv/static/js/runtime-main.734582cf.js.map",
+    "static/js/2.edb10296.chunk.js": "/tv/static/js/2.edb10296.chunk.js",
+    "static/js/2.edb10296.chunk.js.map": "/tv/static/js/2.edb10296.chunk.js.map",
+    "static/js/3.620ab93b.chunk.js": "/tv/static/js/3.620ab93b.chunk.js",
+    "static/js/3.620ab93b.chunk.js.map": "/tv/static/js/3.620ab93b.chunk.js.map",
+    "index.html": "/tv/index.html",
+    "static/css/main.2a85d970.chunk.css.map": "/tv/static/css/main.2a85d970.chunk.css.map",
+    "static/js/2.edb10296.chunk.js.LICENSE.txt": "/tv/static/js/2.edb10296.chunk.js.LICENSE.txt",
+    "static/media/first-portfolio.b65745f8.png": "/tv/static/media/first-portfolio.b65745f8.png",
+    "static/media/insta-clone.4d2950f8.png": "/tv/static/media/insta-clone.4d2950f8.png",
+    "static/media/Intro.css": "/tv/static/media/leehoyun.b23a843c.png",
+    "static/media/netflix-clone.1e829871.png": "/tv/static/media/netflix-clone.1e829871.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.734582cf.js",
+    "static/js/2.edb10296.chunk.js",
+    "static/css/main.2a85d970.chunk.css",
+    "static/js/main.adb0c6fe.chunk.js"
+  ]
+}
