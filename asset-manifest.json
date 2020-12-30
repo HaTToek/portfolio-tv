@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-tv/static/css/main.cc31a570.chunk.css",
+    "main.css": "/portfolio-tv/static/css/main.5eea8caf.chunk.css",
     "main.js": "/portfolio-tv/static/js/main.42ea756b.chunk.js",
     "main.js.map": "/portfolio-tv/static/js/main.42ea756b.chunk.js.map",
     "runtime-main.js": "/portfolio-tv/static/js/runtime-main.5398dae1.js",
@@ -10,7 +10,7 @@
     "static/js/3.620ab93b.chunk.js": "/portfolio-tv/static/js/3.620ab93b.chunk.js",
     "static/js/3.620ab93b.chunk.js.map": "/portfolio-tv/static/js/3.620ab93b.chunk.js.map",
     "index.html": "/portfolio-tv/index.html",
-    "static/css/main.cc31a570.chunk.css.map": "/portfolio-tv/static/css/main.cc31a570.chunk.css.map",
+    "static/css/main.5eea8caf.chunk.css.map": "/portfolio-tv/static/css/main.5eea8caf.chunk.css.map",
     "static/js/2.89b7feee.chunk.js.LICENSE.txt": "/portfolio-tv/static/js/2.89b7feee.chunk.js.LICENSE.txt",
     "static/media/first-portfolio.b65745f8.png": "/portfolio-tv/static/media/first-portfolio.b65745f8.png",
     "static/media/insta-clone.4d2950f8.png": "/portfolio-tv/static/media/insta-clone.4d2950f8.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.5398dae1.js",
     "static/js/2.89b7feee.chunk.js",
-    "static/css/main.cc31a570.chunk.css",
+    "static/css/main.5eea8caf.chunk.css",
     "static/js/main.42ea756b.chunk.js"
   ]
 }
