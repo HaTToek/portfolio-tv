@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Spring, animated } from 'react-spring/renderprops'
 import Intro from '../components/Intro'
 import Navbar_bot from '../components/navbar/Navbar_bot'
 import Navbar_top from '../components/navbar/Navbar_top'
@@ -13,66 +12,37 @@ class Main extends Component {
             mode : 'home',
             navbar : 'translate(50vw,30vh)',
             subtitle : [
-                { title : '이호윤 포트폴리오', desc: 'test1-1'},
-                { title : 'test2', desc: 'test2-1'},
-                { title : 'test3', desc: 'test3-1'},
-                { title : 'test4', desc: 'test4-1'},
+                { title : '이호윤 포트폴리오', page: '홈'},
+                { title : '이호윤 포트폴리오', page: '나에 대해'},
+                { title : '이호윤 포트폴리오', page: '해온 일'},
             ]
         }
     }
     getContent(){
         var _article = null;
         if(this.state.mode === 'home'){
-        //     _article = <Spring
-        //     from={{
-        //         transform:
-        //           'translate3d(400px,0,0) scale(2) rotateX(90deg)',
-        //         }}
-        //       to={{
-        //         transform:
-        //           'translate3d(0px,0,0) scale(1) rotateX(0deg)',
-        //         }}>
-        //     {props => <Intro style={props}></Intro>}
-        //   </Spring>
-        _article = <Intro></Intro>
+            _article = <Intro></Intro>
         } else if(this.state.mode === 'about_me'){
             _article = <AboutMe></AboutMe>
-        }else if(this.state.mode === 'work'){
+        } else if(this.state.mode === 'work'){
             _article = <Work></Work>
         }
         return _article 
     }
     getNavbar_top(){
-        var _title, _desc ,_subtitle = null;
+        var _title ,_subtitle = null;
         if(this.state.mode === 'home'){
-            _title = this.state.subtitle[0].title;
-            _subtitle = <Navbar_top title={_title} onChangeNavbar = {function(_navbar){
-                this.setState({
-                    navbar : _navbar
-            });
-            }.bind(this)}/>
+            _title = this.state.subtitle[0];
         } else if(this.state.mode === 'about_me'){
-            _title = this.state.subtitle[1].title;
-            _subtitle = <Navbar_top title={_title} onChangeNavbar = {function(_navbar){
-                this.setState({
-                    navbar : _navbar
-            });
-            }.bind(this)}/>
+            _title = this.state.subtitle[1];
         } else if(this.state.mode === 'work'){
-            _title = this.state.subtitle[2].title;
-            _subtitle = <Navbar_top title={_title} onChangeNavbar = {function(_navbar){
-                this.setState({
-                    navbar : _navbar
-            });
-            }.bind(this)}/>
-        } else if(this.state.mode === 'contact'){
-            _title = this.state.subtitle[3].title;
-            _subtitle = <Navbar_top title={_title} onChangeNavbar = {function(_navbar){
-                this.setState({
-                    navbar : _navbar
-            });
-            }.bind(this)}/>
+            _title = this.state.subtitle[2];
         }
+        _subtitle = <Navbar_top navbar={this.state.navbar} title={_title} onChangeNavbar = {function(_navbar){
+            this.setState({
+                navbar : _navbar
+        });
+        }.bind(this)}></Navbar_top>
         return _subtitle;
     }
     getNavbar_bot(){
@@ -88,7 +58,7 @@ class Main extends Component {
                 this.setState({
                     navbar : _navbar
             });
-            }.bind(this)}/>
+            }.bind(this)}> </Navbar_bot>
         return _navbar_bot;
     }
     render() {
