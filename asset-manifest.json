@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-tv/static/css/main.b0f68f0f.chunk.css",
-    "main.js": "/portfolio-tv/static/js/main.2954cb4f.chunk.js",
-    "main.js.map": "/portfolio-tv/static/js/main.2954cb4f.chunk.js.map",
+    "main.js": "/portfolio-tv/static/js/main.b697dab2.chunk.js",
+    "main.js.map": "/portfolio-tv/static/js/main.b697dab2.chunk.js.map",
     "runtime-main.js": "/portfolio-tv/static/js/runtime-main.5398dae1.js",
     "runtime-main.js.map": "/portfolio-tv/static/js/runtime-main.5398dae1.js.map",
     "static/js/2.89b7feee.chunk.js": "/portfolio-tv/static/js/2.89b7feee.chunk.js",
@@ -13,14 +13,16 @@
     "static/css/main.b0f68f0f.chunk.css.map": "/portfolio-tv/static/css/main.b0f68f0f.chunk.css.map",
     "static/js/2.89b7feee.chunk.js.LICENSE.txt": "/portfolio-tv/static/js/2.89b7feee.chunk.js.LICENSE.txt",
     "static/media/first-portfolio.b65745f8.png": "/portfolio-tv/static/media/first-portfolio.b65745f8.png",
+    "static/media/fokin-weather.a799fcdd.png": "/portfolio-tv/static/media/fokin-weather.a799fcdd.png",
     "static/media/insta-clone.4d2950f8.png": "/portfolio-tv/static/media/insta-clone.4d2950f8.png",
     "static/media/Intro.css": "/portfolio-tv/static/media/leehoyun.b23a843c.png",
+    "static/media/movie-app.84252461.png": "/portfolio-tv/static/media/movie-app.84252461.png",
     "static/media/netflix-clone.1e829871.png": "/portfolio-tv/static/media/netflix-clone.1e829871.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5398dae1.js",
     "static/js/2.89b7feee.chunk.js",
     "static/css/main.b0f68f0f.chunk.css",
-    "static/js/main.2954cb4f.chunk.js"
+    "static/js/main.b697dab2.chunk.js"
   ]
 }
